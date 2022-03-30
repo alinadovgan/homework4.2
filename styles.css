@@ -1,0 +1,54 @@
+img{
+    width: 75px
+}
+
+
+h1{
+    color: aliceblue;
+    background-image: url("photo-1635445249494-b100ce11a0ad.webp") ;
+    text-align: center;
+}
+p{
+    color: rgb(51, 29, 29);
+}
+
+
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+
+.section {
+    min-width: 45%;
+        margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+        .section {
+            min-width: 90%;
+        }
+  }
+
+  @media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1024px)  { 
+   .section { 
+       min-width: 45%
+   }
+  }
+
+
+  @media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1600px)  {
+    .section { 
+        min-width: 30%
+    }
+   }
+
+
+
